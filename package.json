@@ -1,0 +1,14 @@
+{
+  "name": "lancard-aikawa-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --port 14321",
+    "build": "astro build",
+    "preview": "astro preview --port 14321"
+  },
+  "dependencies": {
+    "@astrojs/rss": "4.0.19",
+    "astro": "7.3.5"
+  }
+}

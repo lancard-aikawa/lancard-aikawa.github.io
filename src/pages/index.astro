@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE, fmtDate } from '../site';
+
+const base = import.meta.env.BASE_URL;
+const projects = (await getCollection('projects', (p) => p.data.listed)).sort(
+  (a, b) => (b.data.latest?.date.getTime() ?? 0) - (a.data.latest?.date.getTime() ?? 0),
+);
+const posts = (await getCollection('posts')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 10);
+---
+
+<Base>
+  <h1>{SITE.title}</h1>
+  <p class="lead">{SITE.description}</p>
+
+  <h2>作ったもの</h2>
+  {projects.length === 0 && <p class="muted">まだありません。</p>}
+  <div class="cards">
+    {
+      projects.map((p) => (
+        <a class="card" href={`${base}projects/${p.data.slug}/`}>
+          <h3>{p.data.name}</h3>
+          <p>{p.data.tagline}</p>
+          {p.data.latest && (
+            <div class="meta muted">
+              {p.data.latest.tag} ・ {fmtDate(p.data.latest.date)}
+            </div>
+          )}
+        </a>
+      ))
+    }
+  </div>
+
+  <h2>最近の更新</h2>
+  <ul class="list">
+    {
+      posts.map((post) => (
+        <li>
+          <time datetime={post.data.date.toISOString()}>{fmtDate(post.data.date)}</time>
+          <a href={`${base}posts/${post.id}/`}>{post.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+  <p><a href={`${base}posts/`}>すべての更新履歴 →</a></p>
+</Base>
