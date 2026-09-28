@@ -10,14 +10,16 @@
     "時系列 / フォルダ / 自分で付けるタグ (3 階層) で並べ替え、スター・絞り込み・詳細パネルで絞り込める",
     "コミットと Claude セッションを日ごとに並べる履歴と、カレンダー・週ごとの棒・プロジェクト × 週などのグラフ",
     "日報 / 週報の Markdown をプレビューを見ながら手直しし、コピー・保存できる",
-    "GitHub (GitHub CLI のログインを借用可) / Gogs / Gitea の一覧と照合し、未クローンのものをクローンできる"
+    "GitHub (GitHub CLI のログインを借用可) / Gogs / Gitea の一覧と照合し、未クローンのものをクローンできる",
+    "Claude のセッションの全文を見て、そこから再開・分岐して再開できる"
   ],
   "platforms": "Windows 10 / 11 (64 bit)。WebView2 と Git for Windows が必要",
   "screenshots": [
     "https://raw.githubusercontent.com/lancard-aikawa/RepoTether/main/docs/images/01_state_time.png",
     "https://raw.githubusercontent.com/lancard-aikawa/RepoTether/main/docs/images/10_history.png",
     "https://raw.githubusercontent.com/lancard-aikawa/RepoTether/main/docs/images/11_graph.png",
-    "https://raw.githubusercontent.com/lancard-aikawa/RepoTether/main/docs/images/12_report.png"
+    "https://raw.githubusercontent.com/lancard-aikawa/RepoTether/main/docs/images/12_report.png",
+    "https://raw.githubusercontent.com/lancard-aikawa/RepoTether/main/docs/images/18_transcript.png"
   ],
   "license": "",
   "listed": true,
