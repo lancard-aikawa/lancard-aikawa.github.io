@@ -1,0 +1,32 @@
+{
+  "name": "LocalLauncher",
+  "slug": "locallauncher",
+  "github": "lancard-aikawa/LocalLauncher",
+  "repoUrl": "https://github.com/lancard-aikawa/LocalLauncher",
+  "tagline": "ローカル開発用の Web サーバーをまとめて起動・停止できるランチャー",
+  "description": "複数のローカル開発サーバーを 1 か所に登録して、起動・停止・再起動をまとめて扱えるツールです。TUI ダッシュボードとブラウザの Web UI の両方から操作でき、ログとステータスはリアルタイムに更新されます。bun / node / npm / python / cmd / PowerShell など複数のランタイムに対応し、ポートの状態や競合も画面から確認できます。設定は config.json に保存されるので、次回もそのまま使えます。",
+  "features": [
+    "bun / node / npm / python / python3 / cmd / PowerShell / raw の複数ランタイムに対応",
+    "サーバーごとに複数ポートを登録し、LISTENING・競合・未応答を色で区別して表示",
+    "firebase.json / .env / package.json などからポートを自動検出し、起動時に競合を警告",
+    "xterm.js のブラウザ内ターミナルでログを表示し、stdin の入力も転送できる",
+    "ブラウザ内・Detached・外部ターミナルの 3 種類の起動方式と、カスタム停止コマンドに対応"
+  ],
+  "platforms": "Windows 10 / 11 (64 bit)。Bun は不要",
+  "screenshots": [],
+  "license": "",
+  "listed": true,
+  "latest": {
+    "tag": "v1.0.0",
+    "name": "LocalLauncher 1.0.0",
+    "url": "https://github.com/lancard-aikawa/LocalLauncher/releases/tag/v1.0.0",
+    "date": "2026-09-29T03:06:25Z",
+    "assets": [
+      {
+        "name": "LocalLauncher-1.0.0-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/LocalLauncher/releases/download/v1.0.0/LocalLauncher-1.0.0-win-x64.zip",
+        "size": 39750041
+      }
+    ]
+  }
+}
