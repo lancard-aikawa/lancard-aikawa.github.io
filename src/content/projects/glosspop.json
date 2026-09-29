@@ -19,6 +19,8 @@
   ],
   "license": "",
   "listed": true,
+  "claude": false,
+  "links": [],
   "latest": {
     "tag": "v0.14.0",
     "name": "GlossPop 0.14.0",

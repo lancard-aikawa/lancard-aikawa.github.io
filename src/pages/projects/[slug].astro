@@ -91,6 +91,7 @@ const posts = (await getCollection('posts', (x) => x.data.project === d.slug)).s
 
   <p>
     <a class="btn" href={d.repoUrl}>GitHub で見る</a>
+    {d.links.map((l) => <a class="btn" href={l.url}>{l.label}</a>)}
     {d.license && <span class="muted small"> ライセンス: {d.license}</span>}
   </p>
 

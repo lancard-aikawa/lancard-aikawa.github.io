@@ -16,6 +16,8 @@
   "screenshots": [],
   "license": "",
   "listed": true,
+  "claude": false,
+  "links": [],
   "latest": {
     "tag": "v1.8.0",
     "name": "v1.8.0 — セキュリティ修正",

@@ -23,6 +23,8 @@
   ],
   "license": "",
   "listed": true,
+  "claude": false,
+  "links": [],
   "latest": {
     "tag": "v0.3.0",
     "name": "RepoTether 0.3.0",

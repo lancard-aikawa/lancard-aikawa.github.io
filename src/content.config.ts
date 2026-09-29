@@ -21,6 +21,7 @@ const projects = defineCollection({
     listed: z.boolean(),
     // Claude Code 前提のもの。「作ったもの」ではなく /claudes/ に載せる
     claude: z.boolean().default(false),
+    links: z.array(z.object({ label: z.string(), url: z.string() })).default([]),
     latest: z
       .object({ tag: z.string(), name: z.string(), url: z.string(), date: z.coerce.date(), assets: z.array(asset) })
       .nullable(),

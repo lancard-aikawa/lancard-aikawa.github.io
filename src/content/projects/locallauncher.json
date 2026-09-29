@@ -19,6 +19,8 @@
   ],
   "license": "",
   "listed": true,
+  "claude": false,
+  "links": [],
   "latest": {
     "tag": "v1.0.1",
     "name": "LocalLauncher 1.0.1",

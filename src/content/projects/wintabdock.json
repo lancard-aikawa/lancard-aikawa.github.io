@@ -18,6 +18,8 @@
   ],
   "license": "",
   "listed": true,
+  "claude": false,
+  "links": [],
   "latest": {
     "tag": "v0.1.0",
     "name": "WinTabDock 0.1.0",

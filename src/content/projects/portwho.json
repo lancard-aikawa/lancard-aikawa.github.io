@@ -16,6 +16,8 @@
   "screenshots": [],
   "license": "",
   "listed": true,
+  "claude": false,
+  "links": [],
   "latest": {
     "tag": "v1.0.0",
     "name": "PortWho v1.0.0",

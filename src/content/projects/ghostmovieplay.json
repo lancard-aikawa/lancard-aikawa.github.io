@@ -4,7 +4,7 @@
   "github": "lancard-aikawa/GhostMoviePlay",
   "repoUrl": "https://github.com/lancard-aikawa/GhostMoviePlay",
   "tagline": "AI がアプリを操作し、つまずく所と正解ルートを字幕付きで解説する動画を作るパイプライン",
-  "description": "自分のアプリやゲームの使い方を動画で見せたい開発者のためのツールです。プロジェクトフォルダを読ませることで、UI を外から眺めるのではなく仕様を理解した上で、人が分からなくて離れてしまう所とその理由、そして正解ルートまでを AI が実演し、字幕と音声を付けた動画にします。台本づくり・音声化・収録・書き出しが分かれているので、撮り直しや文の手直しを何度でもできます。出力した動画は https://lancard-aikawa.github.io/GhostMoviePlayGallery/ で見られます。",
+  "description": "自分のアプリやゲームの使い方を動画で見せたい開発者のためのツールです。プロジェクトフォルダを読ませることで、UI を外から眺めるのではなく仕様を理解した上で、人が分からなくて離れてしまう所とその理由、そして正解ルートまでを AI が実演し、字幕と音声を付けた動画にします。台本づくり・音声化・収録・書き出しが分かれているので、撮り直しや文の手直しを何度でもできます。出力した動画はギャラリーで見られます。",
   "features": [
     "台本づくり (AI あり) と、音声化・収録・書き出し (AI なし) を 3 段に分離。AI のコストは台本の 1 回だけで、撮り直しは無料",
     "台本 (plan.json) は人が読んで直せる。AI の選んだ問題が的外れなら手で書き換えればよい",
@@ -19,5 +19,11 @@
   "license": "",
   "listed": true,
   "claude": true,
+  "links": [
+    {
+      "label": "ギャラリー",
+      "url": "https://lancard-aikawa.github.io/GhostMoviePlayGallery/"
+    }
+  ],
   "latest": null
 }
