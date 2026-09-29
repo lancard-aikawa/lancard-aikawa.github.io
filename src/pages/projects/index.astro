@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { byLatest } from '../../site';
+
+// listed = false のものはトップと同じく一覧に出さない (個別のページはある)
+const projects = (await getCollection('projects', (p) => p.data.listed)).sort(byLatest);
+---
+
+<Base title="作ったもの" description="個人で作っているツールの一覧">
+  <h1>作ったもの</h1>
+  <p class="lead">個人で作っているツールの一覧です。カードを開くと、紹介・ダウンロード・更新履歴があります。</p>
+
+  {projects.length === 0 && <p class="muted">まだありません。</p>}
+  <div class="cards">
+    {projects.map((p) => <ProjectCard p={p} />)}
+  </div>
+</Base>

@@ -1,0 +1,37 @@
+{
+  "name": "NodeUpdater",
+  "slug": "nodeupdater",
+  "github": "lancard-aikawa/NodeUpdater",
+  "repoUrl": "https://github.com/lancard-aikawa/NodeUpdater",
+  "tagline": "npm 系の依存の更新状況と脆弱性を GUI で確認する Windows 用ツール",
+  "description": "npm / yarn / pnpm / bun を使うプロジェクトの依存関係を、GUI で一覧して確認するツールです。package.json やグローバルにインストールしたパッケージについて最新版・公開日を取得し、更新の有無と脆弱性をまとめて見られます。Python + tkinter 製で、サーバーやポートを使わずローカルで動きます。エクスプローラの「送る」にショートカットを置けば、フォルダを右クリックして開けます。",
+  "features": [
+    "package.json を読み、最新版・公開日を取得して latest / minor / major に色分け。workspaces 対応",
+    "npm list -g の結果も同じ基準でチェックし、選んだものを npm install -g で最新版に更新",
+    "package-lock.json から推移依存のツリーを表示し、脆弱性のあるノードをハイライト",
+    "OSV.dev と npm audit --json の二系統で脆弱性を確認。結果は Markdown / CSV に書き出せる",
+    "取得結果は TTL 付きでキャッシュ (registry 24 時間 / OSV 12 時間)。Force Refresh で無視できる"
+  ],
+  "platforms": "Windows",
+  "screenshots": [],
+  "license": "",
+  "listed": true,
+  "latest": {
+    "tag": "v0.1.2",
+    "name": "v0.1.2 — Global 更新を一覧と同じ Python に揃える修正",
+    "url": "https://github.com/lancard-aikawa/NodeUpdater/releases/tag/v0.1.2",
+    "date": "2026-06-06T01:41:10Z",
+    "assets": [
+      {
+        "name": "NodeUpdater.exe",
+        "url": "https://github.com/lancard-aikawa/NodeUpdater/releases/download/v0.1.2/NodeUpdater.exe",
+        "size": 13196449
+      },
+      {
+        "name": "PypkgUpdater.exe",
+        "url": "https://github.com/lancard-aikawa/NodeUpdater/releases/download/v0.1.2/PypkgUpdater.exe",
+        "size": 13175655
+      }
+    ]
+  }
+}

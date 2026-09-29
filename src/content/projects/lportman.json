@@ -1,0 +1,36 @@
+{
+  "name": "LPortMan",
+  "slug": "lportman",
+  "github": "lancard-aikawa/LPortMan",
+  "repoUrl": "https://github.com/lancard-aikawa/LPortMan",
+  "tagline": "ローカル開発で使うポートを調べて台帳にまとめ、衝突を見つける Windows 用ツール",
+  "description": "プロジェクトが増えると、開発サーバやエミュレータのポートは既定値 (3000 / 5173 / 8080 / 9099 ...) の取り合いになります。しかもブラウザの localStorage / IndexedDB は scheme + host + port ごとに分かれるので、後からポートを変えると保存データも別物になります。LPortMan は、どのプロジェクトがどのポートを使うかを一覧にし、新しいポートを被らない場所から払い出します。調べる対象のプロジェクトのファイルには書き込みません。",
+  "features": [
+    "設定ファイル (package.json、vite.config、firebase.json、docker compose など) からポートを読み取る",
+    "いま待ち受けているポートを、プロセス・プロジェクトと突き合わせる (WSL / Docker の中継も推定)",
+    "Windows のポート除外範囲と動的範囲を確認し、空いて見えても使えないポートを避ける",
+    "台帳 (予約) と、予約が設定に反映されたかの追跡。衝突の解消案は提案のみで、ファイルは変更しない",
+    "AI エージェントが読める ports.json と CLI、tkinter の画面。LPortMan 自身はポートを使わない"
+  ],
+  "platforms": "Windows (x64)",
+  "screenshots": [
+    "https://raw.githubusercontent.com/lancard-aikawa/LPortMan/main/docs/images/03_ports.png",
+    "https://raw.githubusercontent.com/lancard-aikawa/LPortMan/main/docs/images/07_conflicts.png",
+    "https://raw.githubusercontent.com/lancard-aikawa/LPortMan/main/docs/images/01_graph_matrix.png"
+  ],
+  "license": "",
+  "listed": true,
+  "latest": {
+    "tag": "v0.2.0",
+    "name": "LPortMan 0.2.0",
+    "url": "https://github.com/lancard-aikawa/LPortMan/releases/tag/v0.2.0",
+    "date": "2026-09-25T07:30:34Z",
+    "assets": [
+      {
+        "name": "LPortMan-0.2.0-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/LPortMan/releases/download/v0.2.0/LPortMan-0.2.0-win-x64.zip",
+        "size": 13990303
+      }
+    ]
+  }
+}

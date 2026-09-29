@@ -9,3 +9,10 @@ export const fmtDate = (d: Date) =>
 
 export const fmtSize = (n: number) =>
   n >= 1024 * 1024 ? `${(n / 1024 / 1024).toFixed(1)} MB` : `${Math.ceil(n / 1024)} KB`;
+
+type ProjectLike = { data: { name: string; latest: { date: Date } | null } };
+
+/** 一覧の並び順: 最新の Release が新しい順。Release の無いものは後ろに名前順 */
+export const byLatest = (a: ProjectLike, b: ProjectLike) =>
+  (b.data.latest?.date.getTime() ?? 0) - (a.data.latest?.date.getTime() ?? 0) ||
+  a.data.name.localeCompare(b.data.name);

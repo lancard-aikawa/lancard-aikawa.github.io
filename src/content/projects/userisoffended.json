@@ -1,0 +1,32 @@
+{
+  "name": "UserIsOffended",
+  "slug": "userisoffended",
+  "github": "lancard-aikawa/UserIsOffended",
+  "repoUrl": "https://github.com/lancard-aikawa/UserIsOffended",
+  "tagline": "一瞬出て消える黒い窓 (コンソール) の犯人を突き止める Windows ツール",
+  "description": "Windows で一瞬だけ出て黙って消える黒い窓 (コンソール) が、どのプログラムのものかを突き止めるツールです。常駐して窓の表示を捕まえ、実行ファイル・コマンドライン・表示時間・親をたどった系譜・推定した起動元を記録します。タスクスケジューラ由来なら該当するタスク名まで照合し、見つけた相手はその場で表示から除外したり、確認のうえタスクを無効にしたりできます。監視していなかった時間の分は完全には遡れないため、「容疑者」タブの静的スキャンで候補を洗い出します。",
+  "features": [
+    "トップレベル窓の表示イベントから黒窓を検出し、実行ファイル・コマンドライン・表示時間・系譜・起動元を記録",
+    "祖先の Schedule サービスとタスク定義を照合し、タスクスケジューラ由来なら該当タスク名まで出す",
+    "集計タブと、日付×時刻のヒートマップ・回数順の棒グラフ。決まった時刻や一定間隔で出るものが分かる",
+    "右クリックで除外・対処済み・ファイルの場所を開く・タスクの無効化・詳細のコピー。CSV にも書き出せる",
+    "Python 標準ライブラリのみ (ctypes + tkinter)、管理者権限不要・インストール不要。自身は黒い窓を出さない"
+  ],
+  "platforms": "Windows (win64)",
+  "screenshots": [],
+  "license": "",
+  "listed": true,
+  "latest": {
+    "tag": "v0.2.0",
+    "name": "v0.2.0",
+    "url": "https://github.com/lancard-aikawa/UserIsOffended/releases/tag/v0.2.0",
+    "date": "2026-09-25T08:39:13Z",
+    "assets": [
+      {
+        "name": "UserIsOffended-v0.2.0-win64.zip",
+        "url": "https://github.com/lancard-aikawa/UserIsOffended/releases/download/v0.2.0/UserIsOffended-v0.2.0-win64.zip",
+        "size": 12469827
+      }
+    ]
+  }
+}

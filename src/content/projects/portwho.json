@@ -1,0 +1,32 @@
+{
+  "name": "PortWho",
+  "slug": "portwho",
+  "github": "lancard-aikawa/PortWho",
+  "repoUrl": "https://github.com/lancard-aikawa/PortWho",
+  "tagline": "どのポートをどのプロセスが使っているかを確認して kill する単体 GUI ツール",
+  "description": "開発サーバーがポートを掴んだまま残ったとき、ポート番号やプロセス名から素早く特定して終了させるための小物です。リッスン中のポートを一覧で見ながら、ポート番号・プロセス名・コマンドラインでフィルタして目的の行を探せます。PortWho 自身はポートを使わず netstat と CIM の出力を表示するだけなので、ポートを使う他のツールと干渉しません。",
+  "features": [
+    "リッスン中のポートを一覧表示 (ポート / Proto / PID / 種別 / プロセス名 / 開く / コマンドライン)",
+    "ポート番号・プロセス名・コマンドラインでのインクリメンタルフィルタと、種別 / Web のセレクトボックス絞り込みを AND で併用",
+    "node / bun / deno / python / dart / go / java / php / ruby / .NET を色チップと太字で強調表示",
+    "HTTP を喋るポートに「開く ↗」を表示し、クリックで http://localhost:PORT をブラウザで開く",
+    "行を選んでプロセスツリーごと kill (誤操作防止のためボタン経由のみ)、列ヘッダでソート・自動更新トグル"
+  ],
+  "platforms": "Windows / Unix (exe ビルドは Windows)",
+  "screenshots": [],
+  "license": "",
+  "listed": true,
+  "latest": {
+    "tag": "v1.0.0",
+    "name": "PortWho v1.0.0",
+    "url": "https://github.com/lancard-aikawa/PortWho/releases/tag/v1.0.0",
+    "date": "2026-05-27T03:57:04Z",
+    "assets": [
+      {
+        "name": "PortWho.exe",
+        "url": "https://github.com/lancard-aikawa/PortWho/releases/download/v1.0.0/PortWho.exe",
+        "size": 12997118
+      }
+    ]
+  }
+}
