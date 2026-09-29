@@ -13,19 +13,22 @@
     "ブラウザ内・Detached・外部ターミナルの 3 種類の起動方式と、カスタム停止コマンドに対応"
   ],
   "platforms": "Windows 10 / 11 (64 bit)。Bun は不要",
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/lancard-aikawa/LocalLauncher/main/docs/images/web-ui.png",
+    "https://raw.githubusercontent.com/lancard-aikawa/LocalLauncher/main/docs/images/add-server.png"
+  ],
   "license": "",
   "listed": true,
   "latest": {
-    "tag": "v1.0.0",
-    "name": "LocalLauncher 1.0.0",
-    "url": "https://github.com/lancard-aikawa/LocalLauncher/releases/tag/v1.0.0",
-    "date": "2026-09-29T03:06:25Z",
+    "tag": "v1.0.1",
+    "name": "LocalLauncher 1.0.1",
+    "url": "https://github.com/lancard-aikawa/LocalLauncher/releases/tag/v1.0.1",
+    "date": "2026-09-29T04:46:44Z",
     "assets": [
       {
-        "name": "LocalLauncher-1.0.0-win-x64.zip",
-        "url": "https://github.com/lancard-aikawa/LocalLauncher/releases/download/v1.0.0/LocalLauncher-1.0.0-win-x64.zip",
-        "size": 39750041
+        "name": "LocalLauncher-1.0.1-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/LocalLauncher/releases/download/v1.0.1/LocalLauncher-1.0.1-win-x64.zip",
+        "size": 39763809
       }
     ]
   }
