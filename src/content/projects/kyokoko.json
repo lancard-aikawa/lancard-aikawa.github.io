@@ -1,6 +1,6 @@
 {
-  "name": "MachiBura",
-  "slug": "machibura",
+  "name": "今日はここに",
+  "slug": "kyokoko",
   "github": "lancard-aikawa/kyokoko",
   "repoUrl": "https://github.com/lancard-aikawa/kyokoko",
   "tagline": "〒や町名を指定すると、その町の碑や地形の話を VOICEVOX と地図で動画にする",
