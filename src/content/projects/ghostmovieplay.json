@@ -1,0 +1,23 @@
+{
+  "name": "GhostMoviePlay",
+  "slug": "ghostmovieplay",
+  "github": "lancard-aikawa/GhostMoviePlay",
+  "repoUrl": "https://github.com/lancard-aikawa/GhostMoviePlay",
+  "tagline": "AI がアプリを操作し、つまずく所と正解ルートを字幕付きで解説する動画を作るパイプライン",
+  "description": "自分のアプリやゲームの使い方を動画で見せたい開発者のためのツールです。プロジェクトフォルダを読ませることで、UI を外から眺めるのではなく仕様を理解した上で、人が分からなくて離れてしまう所とその理由、そして正解ルートまでを AI が実演し、字幕と音声を付けた動画にします。台本づくり・音声化・収録・書き出しが分かれているので、撮り直しや文の手直しを何度でもできます。出力した動画は https://lancard-aikawa.github.io/GhostMoviePlayGallery/ で見られます。",
+  "features": [
+    "台本づくり (AI あり) と、音声化・収録・書き出し (AI なし) を 3 段に分離。AI のコストは台本の 1 回だけで、撮り直しは無料",
+    "台本 (plan.json) は人が読んで直せる。AI の選んだ問題が的外れなら手で書き換えればよい",
+    "収録と書き出しは決定論的。口調や言語を変えても再収録は要らず、原稿を差し替えて書き出し直すだけで済む",
+    "Web で表示できるものなら対象になる (ゲーム、業務アプリ、社内ツールのデモ)",
+    "自動操作が届かない相手 (OAuth、canvas、ネイティブアプリ) は、人が操作して撮ったショットを並べて同じ工程に通せる"
+  ],
+  "platforms": "Windows 11 ほか。uv (Python 3.11+)・ffmpeg・Chromium。台本づくりに Claude Code、ナレーションに VOICEVOX",
+  "screenshots": [
+    "https://raw.githubusercontent.com/lancard-aikawa/GhostMoviePlay/main/docs/images/run.png"
+  ],
+  "license": "",
+  "listed": true,
+  "claude": true,
+  "latest": null
+}

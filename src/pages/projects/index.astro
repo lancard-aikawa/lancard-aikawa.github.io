@@ -4,8 +4,8 @@ import Base from '../../layouts/Base.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
 import { byLatest } from '../../site';
 
-// listed = false のものはトップと同じく一覧に出さない (個別のページはある)
-const projects = (await getCollection('projects', (p) => p.data.listed)).sort(byLatest);
+// listed = false のものはトップと同じく一覧に出さない (個別のページはある)。claude = true は /claudes/ に出す
+const projects = (await getCollection('projects', (p) => p.data.listed && !p.data.claude)).sort(byLatest);
 ---
 
 <Base title="作ったもの" description="個人で作っているツールの一覧">

@@ -1,0 +1,23 @@
+{
+  "name": "ClaudeHistoryViewer",
+  "slug": "claudehistoryviewer",
+  "github": "lancard-aikawa/ClaudeHistoryViewer",
+  "repoUrl": "https://github.com/lancard-aikawa/ClaudeHistoryViewer",
+  "tagline": "Claude Code のセッション履歴を LINE のようなチャット形式で表示する Python 製ビューア",
+  "description": "Claude Code の会話は `~/.claude/projects/` に JSONL 形式で保存されますが、そのままでは読み返しにくい形です。ClaudeHistoryViewer はこれをブラウザ上のチャット画面として表示し、過去のやり取りを追いやすくします。起動時と一定間隔でセッションファイルをバックアップするため、Claude Code の保存期間（既定 30 日）を過ぎて削除されたセッションも表示・検索できます。元のセッションデータは読み取るだけで変更しません。",
+  "features": [
+    "ユーザー発言を右、Claude の返答を左のバブルで表示。長文は「続きを見る」で折りたたみ、ツール呼び出しはチップで示す",
+    "Ctrl+K の全文検索で全プロジェクトを横断。結果はフォルダ→セッション→メッセージの階層で表示する",
+    "メッセージ / セッション / プロジェクト単位でスター・タグ・メモを記録し、スター一覧から該当箇所へジャンプできる",
+    "セッションを HTML / Markdown で保存。HTML は KaTeX を埋め込むのでオフラインでも数式を表示できる",
+    "Python 3.10 以上のみで動作し、外部ライブラリは不要。ダーク / ライトモードやフォントサイズの設定は保存される"
+  ],
+  "platforms": "Windows / WSL / Linux / macOS",
+  "screenshots": [
+    "https://raw.githubusercontent.com/lancard-aikawa/ClaudeHistoryViewer/main/images/Screenshot.png"
+  ],
+  "license": "",
+  "listed": true,
+  "claude": true,
+  "latest": null
+}

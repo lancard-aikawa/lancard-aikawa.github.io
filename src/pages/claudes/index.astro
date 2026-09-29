@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { byLatest } from '../../site';
+
+// shipnote.toml で claude = true にしたもの。LP は /projects/<slug>/ のまま
+const projects = (await getCollection('projects', (p) => p.data.listed && p.data.claude)).sort(byLatest);
+---
+
+<Base title="Claude で動かすもの" description="Claude Code と一緒に使う前提で作っているものの一覧">
+  <h1>Claude で動かすもの</h1>
+  <p class="lead">
+    Claude Code と一緒に使う前提で作っているものです。リポジトリを clone して Claude Code に頼んで動かすものと、Claude Code の記録を読むものがあります。
+  </p>
+
+  {projects.length === 0 && <p class="muted">まだありません。</p>}
+  <div class="cards">
+    {projects.map((p) => <ProjectCard p={p} />)}
+  </div>
+</Base>

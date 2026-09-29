@@ -18,7 +18,7 @@ const thumb = d.screenshots[0];
     <h3>{d.name}</h3>
     <p>{d.tagline}</p>
     <div class="meta muted">
-      {d.latest ? <>{d.latest.tag} ・ {fmtDate(d.latest.date)}</> : <span class="badge">リリース前</span>}
+      {d.latest ? <>{d.latest.tag} ・ {fmtDate(d.latest.date)}</> : d.claude ? <span class="badge">Claude Code</span> : <span class="badge">リリース前</span>}
       {d.platforms && <div class="platforms">{d.platforms}</div>}
     </div>
   </div>

@@ -20,6 +20,15 @@ const posts = (await getCollection('posts', (x) => x.data.project === d.slug)).s
   <h1>{d.name}</h1>
   <p class="lead">{d.tagline}</p>
 
+  {
+    d.claude && (
+      <p class="note">
+        <span class="badge">Claude Code</span> Claude Code と一緒に使う前提のものです。使い方は GitHub の README にあります。
+        <a href={`${base}claudes/`}>ほかのもの →</a>
+      </p>
+    )
+  }
+
   {d.description && <p>{d.description}</p>}
 
   {
@@ -45,33 +54,40 @@ const posts = (await getCollection('posts', (x) => x.data.project === d.slug)).s
     )
   }
 
-  <h2>ダウンロード</h2>
-  <div class="download">
-    {
-      d.latest ? (
-        <>
-          <div>
-            <strong>{d.latest.name}</strong> <span class="muted small">{fmtDate(d.latest.date)}</span>
-          </div>
-          {d.latest.assets.length > 0 && (
-            <ul>
-              {d.latest.assets.map((a) => (
-                <li>
-                  <a href={a.url}>{a.name}</a> <span class="muted small">{fmtSize(a.size)}</span>
-                </li>
-              ))}
-            </ul>
-          )}
-          <p class="small">
-            <a href={d.latest.url}>Release のページ</a>
-            {d.platforms && <> ・ 動作環境: {d.platforms}</>}
-          </p>
-        </>
-      ) : (
-        <p class="muted">まだリリースはありません。</p>
-      )
-    }
-  </div>
+  {
+    /* Claude Code 前提のものは Release が無いことが多い。そのときは「まだリリースはありません」も出さない */
+    !(d.claude && !d.latest) && (
+      <>
+        <h2>ダウンロード</h2>
+        <div class="download">
+          {
+            d.latest ? (
+              <>
+                <div>
+                  <strong>{d.latest.name}</strong> <span class="muted small">{fmtDate(d.latest.date)}</span>
+                </div>
+                {d.latest.assets.length > 0 && (
+                  <ul>
+                    {d.latest.assets.map((a) => (
+                      <li>
+                        <a href={a.url}>{a.name}</a> <span class="muted small">{fmtSize(a.size)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                <p class="small">
+                  <a href={d.latest.url}>Release のページ</a>
+                  {d.platforms && <> ・ 動作環境: {d.platforms}</>}
+                </p>
+              </>
+            ) : (
+              <p class="muted">まだリリースはありません。</p>
+            )
+          }
+        </div>
+      </>
+    )
+  }
 
   <p>
     <a class="btn" href={d.repoUrl}>GitHub で見る</a>
