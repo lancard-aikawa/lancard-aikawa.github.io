@@ -7,7 +7,7 @@
   "description": "ローカルの git リポジトリ、Claude Code のセッション、GitHub / Gogs / Gitea のリポジトリ一覧をまとめて見る、個人用の Windows デスクトップアプリです。プロジェクトを手で登録する必要はなく、探すフォルダとアカウントを決めれば、あとは自動で集まります。未コミット・未 push・未マージのブランチといった取り残しと、いつ何をやったか、どこに時間を使っているかを 1 つの画面で確認できます。リポジトリは読むだけで、書き込むのはクローンや git fetch を自分で操作したときだけです。",
   "features": [
     "状態タブで、プロジェクトごとの取り残しと Claude / git / 変更の時刻、直前の Claude セッションを一覧できる",
-    "時系列 / フォルダ / 自分で付けるタグ (3 階層) で並べ替え、スター・絞り込み・詳細パネルで絞り込める",
+    "フォルダ / 自分で付けるタグ (3 階層) で分類し、一覧か、左に木・右に表のエクスプローラ形式で見られる。スター・絞り込み・詳細パネルもある",
     "コミットと Claude セッションを日ごとに並べる履歴と、カレンダー・週ごとの棒・プロジェクト × 週などのグラフ",
     "日報 / 週報の Markdown をプレビューを見ながら手直しし、コピー・保存できる",
     "GitHub (GitHub CLI のログインを借用可) / Gogs / Gitea の一覧と照合し、未クローンのものをクローンできる",
@@ -24,20 +24,20 @@
   "license": "",
   "listed": true,
   "latest": {
-    "tag": "v0.2.0",
-    "name": "RepoTether 0.2.0",
-    "url": "https://github.com/lancard-aikawa/RepoTether/releases/tag/v0.2.0",
-    "date": "2026-09-28T08:44:28Z",
+    "tag": "v0.3.0",
+    "name": "RepoTether 0.3.0",
+    "url": "https://github.com/lancard-aikawa/RepoTether/releases/tag/v0.3.0",
+    "date": "2026-09-29T01:34:15Z",
     "assets": [
       {
-        "name": "RepoTether-0.2.0-win-x64.zip",
-        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.2.0/RepoTether-0.2.0-win-x64.zip",
-        "size": 3306420
+        "name": "RepoTether-0.3.0-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.3.0/RepoTether-0.3.0-win-x64.zip",
+        "size": 3310529
       },
       {
-        "name": "RepoTether_0.2.0_x64-setup.exe",
-        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.2.0/RepoTether_0.2.0_x64-setup.exe",
-        "size": 2452000
+        "name": "RepoTether_0.3.0_x64-setup.exe",
+        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.3.0/RepoTether_0.3.0_x64-setup.exe",
+        "size": 2454014
       }
     ]
   }
