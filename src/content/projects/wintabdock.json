@@ -1,0 +1,34 @@
+{
+  "name": "WinTabDock",
+  "slug": "wintabdock",
+  "github": "lancard-aikawa/WinTabDock",
+  "repoUrl": "https://github.com/lancard-aikawa/WinTabDock",
+  "tagline": "別々に起動したツールの窓を、1 つの枠にタブでまとめる Windows 用アプリ",
+  "description": "自作のツールを 1 つずつ起動していくと、タスクバーと窓が増えて散らかります。WinTabDock は、それぞれの窓の枠を外してドックの中に重ね、タブで切り替えられるようにします。相手のアプリには手を入れず、タスクバーに残るボタンはドックの 1 つだけです。ドックから外したりドックを閉じたりすると、元の窓に戻ります。",
+  "features": [
+    "相手のアプリを改造せずに取り込みます。タイトルバーを外してドックに重ね、タブで切り替えます",
+    "登録したツールは、エクスプローラーから起動してもドックのタブになります (自動取り込み)。設定画面などの 2 つ目の窓やダイアログはタブにしません",
+    "起動済みのツールは 2 つ目を起動せず切り替えます。登録していない窓も「起動中の窓を取り込む」から取り込めます",
+    "ドックを動かす・大きさを変える・最小化すると、中のツールもついてきます。大きさと位置は次に開いたときに戻ります",
+    "起動時に開くタブ、ドックを閉じるときのツールの扱い、ログイン時の起動を設定で選べます"
+  ],
+  "platforms": "Windows 10 / 11",
+  "screenshots": [
+    "https://raw.githubusercontent.com/lancard-aikawa/WinTabDock/main/docs/images/dock.png"
+  ],
+  "license": "",
+  "listed": true,
+  "latest": {
+    "tag": "v0.1.0",
+    "name": "WinTabDock 0.1.0",
+    "url": "https://github.com/lancard-aikawa/WinTabDock/releases/tag/v0.1.0",
+    "date": "2026-09-29T08:07:29Z",
+    "assets": [
+      {
+        "name": "WinTabDock-0.1.0-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/WinTabDock/releases/download/v0.1.0/WinTabDock-0.1.0-win-x64.zip",
+        "size": 11644607
+      }
+    ]
+  }
+}
