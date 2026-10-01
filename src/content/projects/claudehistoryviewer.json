@@ -20,5 +20,17 @@
   "listed": true,
   "claude": true,
   "links": [],
-  "latest": null
+  "latest": {
+    "tag": "v1.0.0",
+    "name": "ClaudeHistoryViewer 1.0.0",
+    "url": "https://github.com/lancard-aikawa/ClaudeHistoryViewer/releases/tag/v1.0.0",
+    "date": "2026-10-01T05:58:08Z",
+    "assets": [
+      {
+        "name": "ClaudeHistoryViewer-1.0.0.zip",
+        "url": "https://github.com/lancard-aikawa/ClaudeHistoryViewer/releases/download/v1.0.0/ClaudeHistoryViewer-1.0.0.zip",
+        "size": 536853
+      }
+    ]
+  }
 }
