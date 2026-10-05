@@ -1,5 +1,17 @@
 {
   "version": 1,
+  "ignored": [
+    {
+      "repo": "lancard-aikawa/kokogallery",
+      "note": "成果物の置き場",
+      "decided": "2026-10-05"
+    },
+    {
+      "repo": "lancard-aikawa/LockWatch",
+      "note": "RepoTether から使う前提のもの",
+      "decided": "2026-10-05"
+    }
+  ],
   "tags": [
     {
       "repo": "lancard-aikawa/RepoTether",
