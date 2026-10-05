@@ -1,0 +1,725 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.8.0",
+      "date": "2026-10-05",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LockWatch",
+      "tag": "v0.3.0",
+      "date": "2026-10-05",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.8.1",
+      "date": "2026-10-02",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.7.0",
+      "date": "2026-10-02",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.6.0",
+      "date": "2026-10-02",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LockWatch",
+      "tag": "v0.2.0",
+      "date": "2026-10-02",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LockWatch",
+      "tag": "v0.1.0",
+      "date": "2026-10-02",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.16.0",
+      "date": "2026-10-02",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.5.1",
+      "date": "2026-10-01",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.5.0",
+      "date": "2026-10-01",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/ClaudeHistoryViewer",
+      "tag": "v1.0.1",
+      "date": "2026-10-01",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/ClaudeHistoryViewer",
+      "tag": "v1.0.0",
+      "date": "2026-10-01",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.4.0",
+      "date": "2026-09-30",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/WinTabDock",
+      "tag": "v0.1.0",
+      "date": "2026-09-29",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.3.0",
+      "date": "2026-09-29",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LocalLauncher",
+      "tag": "v1.0.1",
+      "date": "2026-09-29",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LocalLauncher",
+      "tag": "v1.0.0",
+      "date": "2026-09-29",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.2.0",
+      "date": "2026-09-28",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.1.0",
+      "date": "2026-09-28",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/UserIsOffended",
+      "tag": "v0.2.0",
+      "date": "2026-09-25",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LPortMan",
+      "tag": "v0.2.0",
+      "date": "2026-09-25",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/LPortMan",
+      "tag": "v0.1.0",
+      "date": "2026-09-25",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/UserIsOffended",
+      "tag": "v0.1.1",
+      "date": "2026-09-18",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/UserIsOffended",
+      "tag": "v0.1.0",
+      "date": "2026-09-18",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/kokogallery",
+      "tag": "005-isahaya-ikiriki",
+      "date": "2026-09-17",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/kokogallery",
+      "tag": "004-isahaya-wan",
+      "date": "2026-09-16",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/kokogallery",
+      "tag": "003-sasebo-hario",
+      "date": "2026-09-16",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/kokogallery",
+      "tag": "002-nagasaki-meganebashi",
+      "date": "2026-09-15",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/kokogallery",
+      "tag": "001-nagasaki-daikokumachi",
+      "date": "2026-09-15",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.15.0",
+      "date": "2026-08-23",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.14.0",
+      "date": "2026-08-17",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.13.0",
+      "date": "2026-08-08",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.12.0",
+      "date": "2026-08-08",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.11.0",
+      "date": "2026-08-07",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.10.4",
+      "date": "2026-08-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.10.3",
+      "date": "2026-08-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.10.2",
+      "date": "2026-08-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.10.1",
+      "date": "2026-08-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.10.0",
+      "date": "2026-08-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.9.0",
+      "date": "2026-08-05",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.8.1",
+      "date": "2026-08-05",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.8.0",
+      "date": "2026-08-04",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.6.0",
+      "date": "2026-08-03",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.5.0",
+      "date": "2026-08-03",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.4.0",
+      "date": "2026-07-31",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.3.0",
+      "date": "2026-07-31",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.2.3",
+      "date": "2026-07-31",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.2.2",
+      "date": "2026-07-31",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.2.1",
+      "date": "2026-07-30",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.2.0",
+      "date": "2026-07-30",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.1.1",
+      "date": "2026-07-30",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/GlossPop",
+      "tag": "v0.1.0",
+      "date": "2026-07-30",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.8.0",
+      "date": "2026-07-27",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.7.1",
+      "date": "2026-07-27",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.7.0",
+      "date": "2026-07-23",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.6.0",
+      "date": "2026-07-03",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.5.2",
+      "date": "2026-06-19",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.5.1",
+      "date": "2026-06-18",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.5.0",
+      "date": "2026-06-18",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.4.1",
+      "date": "2026-06-17",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.4.0",
+      "date": "2026-06-09",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.3.0",
+      "date": "2026-06-09",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.2.0",
+      "date": "2026-06-09",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.1.0",
+      "date": "2026-06-08",
+      "release": false,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.0.3",
+      "date": "2026-06-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/NodeUpdater",
+      "tag": "v0.1.2",
+      "date": "2026-06-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/NodeUpdater",
+      "tag": "v0.1.1",
+      "date": "2026-06-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/NodeUpdater",
+      "tag": "v0.1.0",
+      "date": "2026-06-06",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.0.2",
+      "date": "2026-05-29",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.0.1",
+      "date": "2026-05-29",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.0.0",
+      "date": "2026-05-28",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/PortWho",
+      "tag": "v1.0.0",
+      "date": "2026-05-27",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-10-05",
+      "note": ""
+    }
+  ]
+}
