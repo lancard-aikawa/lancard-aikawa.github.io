@@ -15,6 +15,26 @@
   "tags": [
     {
       "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.11.0",
+      "date": "2026-10-08",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-08",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.10.0",
+      "date": "2026-10-07",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-10-08",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
       "tag": "v0.9.0",
       "date": "2026-10-06",
       "release": true,
