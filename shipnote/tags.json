@@ -19,6 +19,16 @@
   ],
   "tags": [
     {
+      "repo": "lancard-aikawa/ToolKeeper",
+      "tag": "v0.3.0",
+      "date": "2026-11-09",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
       "repo": "lancard-aikawa/RepoTether",
       "tag": "v0.17.0",
       "date": "2026-11-09",

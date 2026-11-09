@@ -26,4 +26,6 @@
    (例: WinTabDock は 2026-09-29 から更新が無く、v0.2.0〜v0.4.4 の「スマホから使う」が LP に無かった)
 
 対象のリポジトリは `~/.shipnote/config.toml` の `repos`。F: のリポジトリ (ClaudeChat、MachiBura) は F: が無いと読めない。
+`tags` は台帳に新しいタグを書き足すので、`sync` を流さなかった回は `shipnote/tags.json` が変わったまま残る。
+そのときは台帳だけ `git commit -m "Ledger: record new tags" -- shipnote/tags.json` でコミットする (サイトの見た目は変わらない)。
 漏れが何も無ければ「載せ漏れなし」と一言だけ書いて、頼まれた作業に移る。
