@@ -1,0 +1,34 @@
+{
+  "name": "MesserText",
+  "slug": "messertext",
+  "github": "lancard-aikawa/MesserText",
+  "repoUrl": "https://github.com/lancard-aikawa/MesserText",
+  "tagline": "メモとシークレットをタブ・日付・案件で分け、暗号化して保存するデスクトップアプリ",
+  "description": "乱雑なメモやシークレットを、気軽に放り込んでおけるデスクトップアプリです。タブ（カテゴリ）・日付・案件で分けておき、いくつもの絞り込みを重ねて探せます。中身はすべてパスワードで暗号化して、1 つのファイルに保存します。",
+  "features": [
+    "タブ・案件・年月・期間・ピン留め・検索語の絞り込みを同時にかけられる。検索は AND・OR・除外・語句の指定に対応",
+    "AES-256-GCM＋scrypt で暗号化。自動保存、保存前の版を 5 世代残す予備、ゴミ箱、自動ロックがある",
+    "メモごとの履歴（10 分ごとに 1 版、30 版まで）から選んだ版に戻せる。OneDrive などで外から書き換えられてもメモ単位で合流する",
+    "等幅フォントのエディタ。正規表現の検索・置換、行番号、全角スペース・タブ・行末の空白の印を出せる",
+    "メモごとに縦書きで表示できる。約物は縦書き用の字形になり、2 桁までの数字は縦中横で並ぶ"
+  ],
+  "platforms": "Windows 10 / 11（64 ビット）",
+  "screenshots": [],
+  "license": "",
+  "listed": true,
+  "claude": false,
+  "links": [],
+  "latest": {
+    "tag": "v0.5.0",
+    "name": "MesserText 0.5.0",
+    "url": "https://github.com/lancard-aikawa/MesserText/releases/tag/v0.5.0",
+    "date": "2026-11-02T07:47:51Z",
+    "assets": [
+      {
+        "name": "MesserText-0.5.0-win64.zip",
+        "url": "https://github.com/lancard-aikawa/MesserText/releases/download/v0.5.0/MesserText-0.5.0-win64.zip",
+        "size": 41998038
+      }
+    ]
+  }
+}

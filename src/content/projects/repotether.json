@@ -13,7 +13,8 @@
     "GitHub (GitHub CLI のログインを借用可) / Gogs / Gitea の一覧と照合し、未クローンのものをクローンできる",
     "詳細パネルで未コミットの変更を見て、そのまま pull できる (早送りだけ。マージコミットを作らず、競合も起こさない)",
     "Claude のセッションの全文を見て、そこから再開・分岐して再開できる",
-    "LockWatch (別に入れる) とつなぐと、lock ファイルの脆弱性を「脆弱性」タブ・詳細パネル・一覧に出す。非公開のリポジトリのパッケージ名は外に出さない"
+    "LockWatch (別に入れる) とつなぐと、lock ファイルの脆弱性を「脆弱性」タブ・詳細パネル・一覧に出す。非公開のリポジトリのパッケージ名は外に出さない",
+    "ToolKeeper (別に入れる) とつなぐと、この PC に入れた道具 (PHP・Ghostscript・Cygwin と winget・choco で入れたもの) が古くなっていないか、サポートが終わっていないかを「道具」タブに出す。RepoTether は見るだけで、更新は ToolKeeper の画面からする"
   ],
   "platforms": "Windows 10 / 11 (64 bit)。WebView2 と Git for Windows が必要",
   "screenshots": [
@@ -28,20 +29,20 @@
   "claude": false,
   "links": [],
   "latest": {
-    "tag": "v0.16.0",
-    "name": "RepoTether 0.16.0",
-    "url": "https://github.com/lancard-aikawa/RepoTether/releases/tag/v0.16.0",
-    "date": "2026-10-29T15:09:40Z",
+    "tag": "v0.17.0",
+    "name": "RepoTether 0.17.0",
+    "url": "https://github.com/lancard-aikawa/RepoTether/releases/tag/v0.17.0",
+    "date": "2026-11-09T01:43:57Z",
     "assets": [
       {
-        "name": "RepoTether-0.16.0-win-x64.zip",
-        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.16.0/RepoTether-0.16.0-win-x64.zip",
-        "size": 3696021
+        "name": "RepoTether-0.17.0-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.17.0/RepoTether-0.17.0-win-x64.zip",
+        "size": 3727611
       },
       {
-        "name": "RepoTether_0.16.0_x64-setup.exe",
-        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.16.0/RepoTether_0.16.0_x64-setup.exe",
-        "size": 2736039
+        "name": "RepoTether_0.17.0_x64-setup.exe",
+        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.17.0/RepoTether_0.17.0_x64-setup.exe",
+        "size": 2762207
       }
     ]
   }
