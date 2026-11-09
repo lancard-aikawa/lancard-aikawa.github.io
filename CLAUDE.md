@@ -20,7 +20,9 @@
    `features` / `description` は各リポジトリの `shipnote.toml` のまま止まる。
    `git -C <リポジトリ> log -1 --format=%ad --date=short -- shipnote.toml` より後の記事 (`src/content/posts/<slug>-*.md`) を読み、
    `features` に無い大きな機能があれば、`shipnote.toml` の直し方を下書きして見せる。了承をもらってから
-   そのリポジトリで直してコミットし、`shipnote sync --commit --push` し直す
+   そのリポジトリで直してコミットし、`shipnote sync --commit --push` し直す。
+   **コミットの前に `git -C <リポジトリ> branch --show-current` を見る。**main でなければ、作業中のブランチに混ぜずにユーザーに聞く
+   (`sync` は手元のファイルを読むので、ブランチに入れた変更は main に戻したときにサイトから消える。2026-11-09 WinTabDock の `vnc-remote` で踏んだ)
    (例: WinTabDock は 2026-09-29 から更新が無く、v0.2.0〜v0.4.4 の「スマホから使う」が LP に無かった)
 
 対象のリポジトリは `~/.shipnote/config.toml` の `repos`。F: のリポジトリ (ClaudeChat、MachiBura) は F: が無いと読めない。
