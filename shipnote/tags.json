@@ -10,6 +10,11 @@
       "repo": "lancard-aikawa/LockWatch",
       "note": "RepoTether から使う前提のもの",
       "decided": "2026-10-05"
+    },
+    {
+      "repo": "lancard-aikawa/ToolKeeper",
+      "note": "RepoTether から使う前提のもの",
+      "decided": "2026-11-09"
     }
   ],
   "tags": [
