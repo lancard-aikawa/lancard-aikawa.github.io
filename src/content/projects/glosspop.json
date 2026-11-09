@@ -22,20 +22,20 @@
   "claude": false,
   "links": [],
   "latest": {
-    "tag": "v0.14.0",
-    "name": "GlossPop 0.14.0",
-    "url": "https://github.com/lancard-aikawa/GlossPop/releases/tag/v0.14.0",
-    "date": "2026-08-17T02:25:00Z",
+    "tag": "v0.16.2",
+    "name": "GlossPop 0.16.2",
+    "url": "https://github.com/lancard-aikawa/GlossPop/releases/tag/v0.16.2",
+    "date": "2026-11-05T09:36:27Z",
     "assets": [
       {
-        "name": "GlossPop-0.14.0-win-x64.zip",
-        "url": "https://github.com/lancard-aikawa/GlossPop/releases/download/v0.14.0/GlossPop-0.14.0-win-x64.zip",
-        "size": 32134933
+        "name": "GlossPop-0.16.2-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/GlossPop/releases/download/v0.16.2/GlossPop-0.16.2-win-x64.zip",
+        "size": 32429141
       },
       {
-        "name": "GlossPop-samples-0.14.0.zip",
-        "url": "https://github.com/lancard-aikawa/GlossPop/releases/download/v0.14.0/GlossPop-samples-0.14.0.zip",
-        "size": 503845
+        "name": "GlossPop-samples-0.16.2.zip",
+        "url": "https://github.com/lancard-aikawa/GlossPop/releases/download/v0.16.2/GlossPop-samples-0.16.2.zip",
+        "size": 503847
       }
     ]
   }

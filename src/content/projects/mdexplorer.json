@@ -19,15 +19,15 @@
   "claude": false,
   "links": [],
   "latest": {
-    "tag": "v1.8.0",
-    "name": "v1.8.0 — セキュリティ修正",
-    "url": "https://github.com/lancard-aikawa/fastmd-explorer/releases/tag/v1.8.0",
-    "date": "2026-07-27T06:37:48Z",
+    "tag": "v1.8.2",
+    "name": "v1.8.2 — 依存パッケージの脆弱性修正",
+    "url": "https://github.com/lancard-aikawa/fastmd-explorer/releases/tag/v1.8.2",
+    "date": "2026-11-04T10:27:39Z",
     "assets": [
       {
         "name": "fastmd-explorer.exe",
-        "url": "https://github.com/lancard-aikawa/fastmd-explorer/releases/download/v1.8.0/fastmd-explorer.exe",
-        "size": 65508142
+        "url": "https://github.com/lancard-aikawa/fastmd-explorer/releases/download/v1.8.2/fastmd-explorer.exe",
+        "size": 65501980
       }
     ]
   }
