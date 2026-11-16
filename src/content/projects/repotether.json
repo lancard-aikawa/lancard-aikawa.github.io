@@ -29,20 +29,20 @@
   "claude": false,
   "links": [],
   "latest": {
-    "tag": "v0.17.0",
-    "name": "RepoTether 0.17.0",
-    "url": "https://github.com/lancard-aikawa/RepoTether/releases/tag/v0.17.0",
-    "date": "2026-11-09T01:43:57Z",
+    "tag": "v0.18.2",
+    "name": "RepoTether 0.18.2",
+    "url": "https://github.com/lancard-aikawa/RepoTether/releases/tag/v0.18.2",
+    "date": "2026-11-16T02:22:21Z",
     "assets": [
       {
-        "name": "RepoTether-0.17.0-win-x64.zip",
-        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.17.0/RepoTether-0.17.0-win-x64.zip",
-        "size": 3727611
+        "name": "RepoTether-0.18.2-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.18.2/RepoTether-0.18.2-win-x64.zip",
+        "size": 7306951
       },
       {
-        "name": "RepoTether_0.17.0_x64-setup.exe",
-        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.17.0/RepoTether_0.17.0_x64-setup.exe",
-        "size": 2762207
+        "name": "RepoTether_0.18.2_x64-setup.exe",
+        "url": "https://github.com/lancard-aikawa/RepoTether/releases/download/v0.18.2/RepoTether_0.18.2_x64-setup.exe",
+        "size": 4480230
       }
     ]
   }

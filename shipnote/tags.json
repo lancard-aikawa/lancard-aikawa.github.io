@@ -19,6 +19,46 @@
   ],
   "tags": [
     {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.18.2",
+      "date": "2026-11-16",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-16",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.18.1",
+      "date": "2026-11-13",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-16",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "v0.18.0",
+      "date": "2026-11-13",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-16",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/RepoTether",
+      "tag": "offstage-v0.1.0",
+      "date": "2026-11-12",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-16",
+      "note": ""
+    },
+    {
       "repo": "lancard-aikawa/ToolKeeper",
       "tag": "v0.3.0",
       "date": "2026-11-09",
