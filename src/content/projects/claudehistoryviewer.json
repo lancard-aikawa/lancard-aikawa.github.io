@@ -21,15 +21,15 @@
   "claude": true,
   "links": [],
   "latest": {
-    "tag": "v1.0.1",
-    "name": "ClaudeHistoryViewer 1.0.1",
-    "url": "https://github.com/lancard-aikawa/ClaudeHistoryViewer/releases/tag/v1.0.1",
-    "date": "2026-10-01T06:53:32Z",
+    "tag": "v1.1.0",
+    "name": "ClaudeHistoryViewer 1.1.0",
+    "url": "https://github.com/lancard-aikawa/ClaudeHistoryViewer/releases/tag/v1.1.0",
+    "date": "2026-11-10T05:39:48Z",
     "assets": [
       {
-        "name": "ClaudeHistoryViewer-1.0.1.zip",
-        "url": "https://github.com/lancard-aikawa/ClaudeHistoryViewer/releases/download/v1.0.1/ClaudeHistoryViewer-1.0.1.zip",
-        "size": 538701
+        "name": "ClaudeHistoryViewer-1.1.0.zip",
+        "url": "https://github.com/lancard-aikawa/ClaudeHistoryViewer/releases/download/v1.1.0/ClaudeHistoryViewer-1.1.0.zip",
+        "size": 560067
       }
     ]
   }

@@ -19,6 +19,46 @@
   ],
   "tags": [
     {
+      "repo": "lancard-aikawa/WinTabDock",
+      "tag": "v0.6.0",
+      "date": "2026-11-25",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-25",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/WinTabDock",
+      "tag": "v0.5.0",
+      "date": "2026-11-24",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-25",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/OpenOutside",
+      "tag": "v0.1.2",
+      "date": "2026-11-18",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.9.1",
+      "date": "2026-11-16",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-11-25",
+      "note": ""
+    },
+    {
       "repo": "lancard-aikawa/RepoTether",
       "tag": "v0.18.4",
       "date": "2026-11-16",
@@ -49,6 +89,16 @@
       "note": ""
     },
     {
+      "repo": "lancard-aikawa/ToolKeeper",
+      "tag": "v0.4.0",
+      "date": "2026-11-13",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
       "repo": "lancard-aikawa/RepoTether",
       "tag": "v0.18.1",
       "date": "2026-11-13",
@@ -69,6 +119,16 @@
       "note": ""
     },
     {
+      "repo": "lancard-aikawa/LockWatch",
+      "tag": "v0.8.0",
+      "date": "2026-11-13",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
       "repo": "lancard-aikawa/RepoTether",
       "tag": "offstage-v0.1.0",
       "date": "2026-11-12",
@@ -76,6 +136,36 @@
       "post": "publish",
       "by": "default",
       "decided": "2026-11-16",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/fastmd-explorer",
+      "tag": "v1.9.0",
+      "date": "2026-11-11",
+      "release": true,
+      "post": "skip",
+      "by": "default",
+      "decided": "2026-11-25",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/OpenOutside",
+      "tag": "v0.1.0",
+      "date": "2026-11-11",
+      "release": true,
+      "post": null,
+      "by": "",
+      "decided": "",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/ClaudeHistoryViewer",
+      "tag": "v1.1.0",
+      "date": "2026-11-10",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-25",
       "note": ""
     },
     {
