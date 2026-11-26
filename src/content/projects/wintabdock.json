@@ -24,15 +24,15 @@
   "claude": false,
   "links": [],
   "latest": {
-    "tag": "v0.6.0",
-    "name": "WinTabDock 0.6.0",
-    "url": "https://github.com/lancard-aikawa/WinTabDock/releases/tag/v0.6.0",
-    "date": "2026-11-25T08:56:47Z",
+    "tag": "v0.6.1",
+    "name": "WinTabDock 0.6.1",
+    "url": "https://github.com/lancard-aikawa/WinTabDock/releases/tag/v0.6.1",
+    "date": "2026-11-26T03:05:15Z",
     "assets": [
       {
-        "name": "WinTabDock-0.6.0-win-x64.zip",
-        "url": "https://github.com/lancard-aikawa/WinTabDock/releases/download/v0.6.0/WinTabDock-0.6.0-win-x64.zip",
-        "size": 12398731
+        "name": "WinTabDock-0.6.1-win-x64.zip",
+        "url": "https://github.com/lancard-aikawa/WinTabDock/releases/download/v0.6.1/WinTabDock-0.6.1-win-x64.zip",
+        "size": 12427022
       }
     ]
   }

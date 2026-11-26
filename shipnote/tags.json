@@ -20,6 +20,16 @@
   "tags": [
     {
       "repo": "lancard-aikawa/WinTabDock",
+      "tag": "v0.6.1",
+      "date": "2026-11-26",
+      "release": true,
+      "post": "publish",
+      "by": "default",
+      "decided": "2026-11-26",
+      "note": ""
+    },
+    {
+      "repo": "lancard-aikawa/WinTabDock",
       "tag": "v0.6.0",
       "date": "2026-11-25",
       "release": true,
